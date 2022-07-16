@@ -1,0 +1,146 @@
+main{
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+form{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 70%;
+  height: 800px;
+  padding: 25px 40px;
+  background-color: gainsboro;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#prodName{
+  height: 5%;
+  border: none;
+}
+
+#imageUp{
+  justify-content: end;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  background-image: url('images/image-solid.svg');
+  background-size: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  background-color: black;
+  color: white;
+}
+
+.img{
+  display: flex;
+}
+
+#description{
+  border: none;
+  height: 15%;
+  resize: none;
+
+}
+
+#price{
+  border: none;
+  width: 70%;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.dollar{
+  display: flex;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.priceDollar{
+  display: flex;
+  width: 25%;
+}
+
+#file{
+  background-color: black;
+  color: white;
+  width: 240px;
+  height: 25px;
+  border-radius: 3px;
+}
+
+input{
+  border: none;
+  padding: 5px;
+  text-indent: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+textarea{
+  padding: 5px;
+  text-indent: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+label{
+  display: flex;
+}
+
+button{
+  border: none;
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.save{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 7%;
+}

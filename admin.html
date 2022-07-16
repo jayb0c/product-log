@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="images/cam.svg">
+  <title>Admin</title>
+  <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body>
+  <main>
+    <h1>Add a Product</h1>
+    <form id="form">
+      <label for="prodName">Product Name</label>
+      <input id="prodName" type="text" placeholder="Enter a product name here" required>
+      <label for="description">Product Description</label>
+      <textarea id="description" placeholder="Enter a product description here" required></textarea>
+      <div id="imageUp">
+      </div>
+      <label for="image">Enter Image URL</label>
+      <input id="image" type="url" required>
+      <label for="price">Price</label>
+      <div class="save">
+        <div class="priceDollar">
+          <div class="dollar">
+            <h2>$</h2>
+          </div>
+          <input id="price" type="number" required>
+        </div>
+        <button id="save" type="submit">Save</button>
+      </div>
+    </form>
+  </main>
+  <script src="node.js"></script>
+</body>
+</html>
